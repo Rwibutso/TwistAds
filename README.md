@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/37e2d040-252e-47c5-976f-b0749f961d58/deploy-status)](https://app.netlify.com/sites/twistads/deploys)
+
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>

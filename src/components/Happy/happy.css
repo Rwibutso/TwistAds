@@ -1,0 +1,197 @@
+html{
+    scroll-behavior: smooth;
+  
+}
+.happyContainer {
+    top: 0vh;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+.happyOuter{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.HappyImage{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    align-items:center;
+}
+.drive{
+    height: 75%;
+    width: 65%;
+
+}
+.happyDetails{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.happyDetails h1{
+    width: 90%;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(130, 125, 125);
+    text-align: center;
+}
+.happyDetails p{
+    width: 90%;
+    height: 12%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(105, 124, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+
+}
+.happyBtn{
+    width: 90%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+}
+.happyBtn button{
+    width: 30%;
+    height: 100%;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 2px solid rgb(175, 15, 15);
+    color: rgb(175, 15, 15);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none;
+}
+.happyBtn button:hover{
+    border: 2px solid rgb(175, 15, 15);
+    background-color: rgb(175, 15, 15);
+    color: white;
+    transform: scale(.9);
+    appearance: none;
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+    .happyOuter{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .HappyImage{
+        height: 55%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .drive{
+        height: 95%;
+        width: 65%;    
+    }
+    .happyDetails{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .happyDetails h1{
+        width: 90%;
+        font-size: 20px;
+        font-style: italic;
+        color: rgb(130, 125, 125);
+        text-align: center;
+    }
+    .happyDetails p{
+        width: 90%;
+        height: 15%;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(105, 124, 140);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10% 0;
+    }
+    .happyBtn{
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .happyBtn button{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .happyOuter{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .HappyImage{
+        height: 55%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .drive{
+        height: 85%;
+        width: 85%;    
+    }
+    .happyDetails{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .happyDetails h1{
+        width: 90%;
+        font-size: 20px;
+        font-style: italic;
+        color: rgb(130, 125, 125);
+        text-align: center;
+    }
+    .happyDetails p{
+        width: 90%;
+        height: 35%;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(105, 124, 140);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10% 0;
+    }
+    .happyBtn{
+        width: 90%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+    }
+}

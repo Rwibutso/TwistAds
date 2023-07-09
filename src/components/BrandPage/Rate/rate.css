@@ -1,0 +1,74 @@
+.rateContainer{
+    background-color: white;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rateDetails{
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.rateDetails h3{
+    text-align: center;
+    font-size: 30px;
+    font-style:italic;
+    color: rgba(0, 0, 0, 0.488);
+    font-weight:bold ;
+}
+.rateDetails p{
+    text-align: center;
+    font-size: 20px;
+    font-style:italic;
+    color: rgba(0, 0, 0, 0.488);
+}
+.rateBtn{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rateBtn button{
+    height: 50%;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid rgb(175, 15, 15);
+    font-size: 15px;
+    color: rgb(175, 15, 15);
+    font-weight: bold;
+    transition: all .4s;
+    background-color: transparent;
+}
+.rateBtn button:hover{
+    color: white;
+    background-color: rgb(175, 15, 15);
+    transform: scaleX(.9);
+    border-radius: 30px;
+}
+@media only screen and (max-width: 450px) {
+    .rateContainer{
+        height: 45vh;
+    }
+    .rateDetails{
+        height: 80%;
+        width: 90%;
+    }
+    .rateDetails p{
+        font-size: 25px;
+    }
+    .rateBtn{
+        height: 40%;
+    }
+    .rateBtn button{
+        height: 40%;
+        width: 40%;
+        font-size: 13px;
+    }
+}

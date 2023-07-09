@@ -1,0 +1,108 @@
+html{
+    scroll-behavior: smooth;
+}
+.brandContainer {
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+.brandContainer span{
+    color: rgb(175, 15, 15);
+    width: 15%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.brandOuter{
+    height: 100%;
+    width: 70%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.brandOuter:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background:linear-gradient(to right, rgba(255, 255, 255, 0), black);
+    content: "";
+    z-index: 2;
+}
+.brandOuter:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background:linear-gradient(to left, rgba(255, 255, 255, 0), black);
+    content: "";
+    z-index: 2;
+}
+#brandDetails{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    animation: slide infinite 15s linear;
+}
+#brandDetails h1{
+    width: 20%;
+    font-style: italic;
+    color: white;
+    margin: 0 40px;
+}
+
+@keyframes slide {
+    from{
+      transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.brandOuter:hover #brandDetails{
+    animation-play-state: paused;
+}
+@media only screen and (max-width: 450px) {
+    .brandContainer span{
+        width: 20%;
+        font-size: 15px;
+    }
+    .brandDetails1{
+        opacity: 1;
+    }
+    .brandDetails2{
+        opacity: 1;
+    }
+    .brandDetails3{
+        opacity: 1;
+    }
+    .brandDetails1 .invisible{
+        opacity: 0;
+    }
+    .brandDetails2 .invisible{
+        opacity: 0;
+    }
+    .brandDetails3 .invisible{
+        opacity: 0;
+    }
+    #brandDetails h1{
+        width: 25%;
+        font-style: italic;
+        color: white;
+        margin: 0 15px;
+        font-size: 15px;
+    }
+    
+}

@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth;
+}
+.EasyContainer-dr {
+    left: 0;
+    top: 10vh;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.EasyContainer-dr h1{
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+.EasyContainer-dr h4{
+    margin: .5% 0 2% 0;
+    color: white;
+    width: auto;
+}
+.butoonLink-dr{
+    width: 12%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.butoonLink-dr button{
+    height: 100%;
+    margin: 1% 0;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(175, 15, 15);
+    transition: all 2s;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.butoonLink-dr button:hover{
+    background-color: white;
+    color: rgb(175, 15, 15);
+    transform: scale(.9);
+}
+@media only screen and (max-width: 450px) {
+    .EasyContainer-dr {
+        top: 7vh;
+    }
+    .EasyContainer-dr h1{
+        font-size: 30px;
+        width: 90%;
+    }
+    .EasyContainer-dr h4{
+        margin: .5% 0 5% 0;
+        color: white;
+        width: auto;
+    }
+    .butoonLink-dr{
+        width: 40%;
+        height: 12%;
+    }
+    .butoonLink-dr button{
+        font-size: 13px;
+    }
+    
+}

@@ -1,0 +1,183 @@
+.paintContainer-dr{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    top: 10vh;
+    position: relative;
+}
+.paintSubcontainer-dr{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paintDetails-dr{
+    height: 85%;
+    width: 80%;
+}
+.paintTittle-dr{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paintTittle-dr h1{
+    width: auto;
+    font-size: 40px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.535);
+}
+.paintImg-dr{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paintImg-dr .gif-image{
+    background-color: white;
+    height: 90%;
+    width: 95%;
+}
+.paintList-dr{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(50, 49, 49, 0.512);
+}
+.line1, .line2, .line3{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    font-size: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+.line1 h2, .line2 h2, .line3 h2{
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+}
+.paintList-dr .line4 .h2{
+    font-size: 80px;
+}
+.paintH2-dr{
+    height: 5%;
+    font-size: 35px;
+    font-style: italic;
+    align-items: center;
+    width: auto;
+    margin-top: 2%;
+    color: rgba(18, 43, 76, 0.666);
+}
+.paintBtn-dr{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paintBtn-dr button{
+    height: 50%;
+    width: 15%;
+    border: 2px solid rgb(175, 15, 15);
+    border-radius: 30px;
+    font-size: 18px;
+    color: rgb(175, 15, 15);
+    transition: all 2s;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none;
+}
+.paintBtn-dr button:hover{
+    background-color: rgb(175, 15, 15);
+    color: white;
+    transform: scale(.9);
+}
+@media only screen and (max-width: 450px) {
+    .paintContainer-dr{
+        height: 100vh;
+        top: 7vh;
+    }
+    .paintSubcontainer-dr{
+        height: 90%;
+    }
+    .paintDetails-dr{
+        height: 80%;
+        width: 90%;
+    }
+    .paintTittle-dr{
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .paintTittle-dr h1{
+        width: auto;
+        font-size: 27px;
+        font-style: italic;
+        color: rgba(0, 0, 0, 0.535);
+    }
+    .paintImg-dr{
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .paintImg-dr .gif-image{
+        background-color: white;
+        height: 80%;
+        width: 100%;
+    }
+    .paintList-dr{
+        height: 40%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(50, 49, 49, 0.512);
+    }
+    .line1, .line2, .line3{
+        width: 90%;
+        height: 20%;
+    }
+    .check{
+        font-size: 25px;
+        width: auto;
+        margin-right: 10px;
+    }
+    .line1 h2, .line2 h2, .line3 h2{
+        font-size: 20px;
+    }
+    .paintH2-dr{
+        height: 8%;
+        font-size: 20px;
+        width: auto;
+        align-items: center;
+        margin-top: 1%;
+    }
+    .paintBtn-dr{
+        height: 10%;
+        width: 90%;
+    }
+    .paintBtn-dr button{
+        height: 55%;
+        width: 40%;
+        border-radius: 30px;
+        font-size: 15px;
+    }
+
+}

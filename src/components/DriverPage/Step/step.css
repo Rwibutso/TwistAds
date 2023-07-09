@@ -1,0 +1,366 @@
+.stepContainer-dr{
+    background: linear-gradient(black, rgb(164, 167, 163));
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+}
+.stepDetails-dr{
+    height: 90%;
+    width: 80%;
+}
+.tittle-dr{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle-dr h1{
+    font-size: 50px;
+    width: auto;
+    font-style: italic;
+    color: white;
+}
+.steps-dr{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.step1-dr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.step1-dr .label-dr{
+    height: 8%;
+    color: white;
+    margin-bottom: 5%;
+}
+.step1-dr img{
+    height: 40%;
+    width: 50%;
+    margin: 10% 0;
+}
+.step1-dr h3{
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+.step1-dr p{
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.stepSub1-dr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stepSub1-dr .label-dr{
+    height: 8%;
+    color: white;
+    margin-bottom: 5%;
+}
+.stepSub1-dr img{
+    height: 40%;
+    width: 50%;
+    margin: 10% 0;
+}
+.stepSub1-dr h3{
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+.stepSub1-dr p{
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.stepSub2-dr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.stepSub2-dr .label-dr{
+    height: 8%;
+    color: white;
+    margin-bottom: 5%;
+}
+.stepSub2-dr img{
+    height: 40%;
+    width: 50%;
+    margin: 10% 0;
+}
+.stepSub2-dr h3{
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+.stepSub2-dr p{
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.step2-dr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.step2-dr .label-dr{
+    height: 8%;
+    color: white;
+    margin-bottom: 5%;
+}
+.step2-dr img{
+    height: 40%;
+    width: 50%;
+    margin: 10% 0;
+}
+.step2-dr h3{
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+.step2-dr p{
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.step3-dr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.step3-dr p{
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.step3-dr .label-dr{
+    height: 8%;
+    color: white;
+    margin-bottom: 5%;
+}
+.step3-dr img{
+    height: 40%;
+    width: 50%;
+    margin: 10% 0;
+}
+.step3-dr h3{
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+.step3-dr p{
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.leftDiv-dr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.labelIcon1-dr{
+    display: none;
+}
+.indicator-step-dr{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .stepContainer-dr{
+        background: linear-gradient(black, rgb(164, 167, 163));
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 10vh;
+    }
+    .stepDetails-dr{
+        height: 90%;
+        width: 90%;
+    }
+    .steps-dr{
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .leftDiv-dr .stepSub1-dr, .stepSub2-dr{
+        display: none;
+    }
+    .labelIcon1-dr{
+        display: block;
+        width: 10%;
+        height: 20%;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+    #labelInactive-dr{
+        color: rgba(165, 165, 165, 0.652);
+    }
+    .step1-dr, .step2-dr, .step3-dr{
+        width: 60%;
+        margin: 0 10%;
+    }
+    .middleDiv-dr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    .rightDiv-dr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    .step1-dr, .step2-dr, .step3-dr{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .indicator-step-dr{
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .indicator1-step-dr{
+        height: 3px;
+        margin: 0 2px;
+        width: 40px;
+        transition: all 4s;
+        background-color: white;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .stepContainer-dr{
+        height: 70vh;
+        top: 7vh;
+    }
+    .steps-dr{
+        height: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .tittle-dr{
+        height: 15%;
+    }
+    .tittle-dr h1{
+        font-size: 35px;
+    }
+    .labelIcon1-dr{
+        display: block;
+        width: 10%;
+        height: 20%;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+    .step1-dr, .step2-dr, .step3-dr{
+        width: 60%;
+        margin: 0 10%;
+    }
+    .leftDiv-dr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    .middleDiv-dr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    .rightDiv-dr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    .step1-dr, .step2-dr, .step3-dr{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .step1-dr .label-dr{
+        height: 8%;
+        color: white;
+        margin-bottom: 5%;
+    }
+    .step1-dr img{
+        height: 40%;
+        width: 50%;
+        margin: 10% 0;
+    }
+    .step1-dr h3{
+        height: auto;
+        width: auto;
+        color: white;
+        font-size: 20px;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+
+    .indicator-step-dr{
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .indicator1-step-dr{
+        height: 3px;
+        margin: 0 2px;
+        width: 40px;
+        transition: all 4s;
+        background-color: white;
+    }
+}

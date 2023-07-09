@@ -1,0 +1,12 @@
+.FaqsContainer-dr{
+    left: 0;
+    top: 10vh;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

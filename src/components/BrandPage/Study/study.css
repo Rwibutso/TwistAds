@@ -1,0 +1,68 @@
+.studyContainer{
+    background-color: white;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.studyDetails{
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.studyDetails p{
+    text-align: center;
+    font-size: 28px;
+    font-style:italic;
+    color: rgba(0, 0, 0, 0.488);
+    font-weight:bold ;
+}
+.studyBtn{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studyBtn button{
+    height: 50%;
+    width: 35%;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid rgb(175, 15, 15);
+    font-size: 15px;
+    color: rgb(175, 15, 15);
+    font-weight: bold;
+    transition: all .4s;
+    background-color: transparent;
+}
+.studyBtn button:hover{
+    color: white;
+    background-color: rgb(175, 15, 15);
+    transform: scaleX(.9);
+    border-radius: 30px;
+}
+@media only screen and (max-width: 450px) {
+    .studyContainer{
+        height: 45vh;
+    }
+    .studyDetails{
+        height: 80%;
+        width: 90%;
+    }
+    .studyDetails p{
+        font-size: 25px;
+    }
+    .studyBtn{
+        height: 50%;
+    }
+    .studyBtn button{
+        height: 40%;
+        width: 60%;
+        font-size: 13px;
+    }
+}

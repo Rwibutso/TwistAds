@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+    "moduleResolution": "node",
+        "target": "ES2020",
+        "jsx": "react"
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*",
+        "dist"
+    ]
+}

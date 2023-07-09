@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+.brandContainer-dr {
+    left: 0;
+    top: 10vh;
+    height: 12vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+.brandContainer-dr span{
+    color: rgb(175, 15, 15);
+    width: 15%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.brandOuter-dr{
+    height: 100%;
+    width: 70%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.brandOuter-dr:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background:linear-gradient(to right, rgba(255, 255, 255, 0), black);
+    content: "";
+    z-index: 2;
+
+}
+.brandOuter-dr:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background:linear-gradient(to left, rgba(255, 255, 255, 0), black);
+    content: "";
+    z-index: 2;
+}
+#brandDetails-dr{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    animation: slide infinite 15s linear;
+}
+#brandDetails-dr h1{
+    width: 20%;
+    font-style: italic;
+    color: white;
+    margin: 0 40px;
+}
+
+@keyframes slide {
+    from{
+      transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.brandOuter-dr:hover #brandDetails-dr{
+    animation-play-state: paused;
+}
+@media only screen and (max-width: 450px) {
+    .brandContainer-dr {
+        top: 8vh;
+    }
+    .brandContainer-dr span{
+        width: 20%;
+        font-size: 15px;
+    }
+    .brandDetails1-dr{
+        opacity: 1;
+    }
+    .brandDetails2-dr{
+        opacity: 1;
+    }
+    .brandDetails3-dr{
+        opacity: 1;
+    }
+    .brandDetails1-dr .invisible-dr{
+        opacity: 0;
+    }
+    .brandDetails2-dr .invisible-dr{
+        opacity: 0;
+    }
+    .brandDetails3-dr .invisible-dr{
+        opacity: 0;
+    }
+    #brandDetails-dr h1{
+        width: 25%;
+        font-style: italic;
+        color: white;
+        margin: 0 15px;
+        font-size: 15px;
+    }
+    
+}

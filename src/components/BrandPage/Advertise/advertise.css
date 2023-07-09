@@ -1,0 +1,155 @@
+.adverContainer {
+    background: linear-gradient(rgb(2, 2, 2), rgb(20, 55, 111));
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    top: 10vh;
+}
+.adverTittle{
+    height: 14%;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+}
+.adverTittle h3{
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+}
+.adverDetails{
+    display: flex;
+    height: 80%;
+}
+.adverFeedBack{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.fbckLeft{
+    height: 85%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.fbckLeft img{
+    height: 60%;
+    width: 40%;
+    border-radius: 30px;
+}
+.adverNext{
+    height: 40%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.adverNextContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.adverNextContent p{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.adverNextContent h4{
+    width: auto;
+    color: rgb(250, 249, 252);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.adverNextContent .h4{
+    width: auto;
+    color: rgb(250, 249, 252);
+    text-align: center;
+    font-size: 15px;
+}
+.adverLebel{
+    font-size: 60px;
+    color: white;
+    width: 5%;
+}
+.indicator-adver{
+    height: auto;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indicator1-adver{
+    background-color: rgb(135, 152, 189);
+    height: 5px;
+    margin: 0 2px;
+    width: 40px;
+    transition: all 4s;
+}
+#active-adver{
+    background-color: red;
+}
+#inactive{
+    color: hsla(0, 0%, 100%, 0.261);
+}
+@media only screen and (max-width: 450px) {
+    .adverContainer {
+        height: 90vh;
+        top: 7vh;
+    }
+    .adverTittle{
+        height: 15%;
+        width: 100%;
+    }
+    .adverTittle h3{
+        font-size: 25px;
+    }
+    .adverDetails{
+        display: flex;
+        height: 88%;
+    }
+    .fbckLeft{
+        height: 80%;
+        width: 100%;
+    }
+    .fbckLeft img{
+        height: 48%;
+        width: 90%;
+    }
+    .adverNext{
+        height: 50%;
+        width: 95%;
+    }
+    .adverNextContent{
+        width: 75%;
+    }
+    .adverNextContent p{
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    .adverNextContent h4{
+        font-size: 17px;
+    }
+    .adverNextContent .h4{
+        font-size: 13px;
+    }
+    .adverLebel{
+        font-size: 60px;
+        width: 8%;
+    }
+    .indicator-adver{
+        height: 5%;
+        margin:5% 0 20% 0;
+        align-items: flex-start;
+    }
+}
