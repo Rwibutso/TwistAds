@@ -14,6 +14,17 @@ const SlidingImageBackground = () => {
       });
     }
   };
+
+  const scrollHandler = () => {
+    const joinElement = document.getElementById('joinContainer-dr-id');
+    if (joinElement) {
+      window.scrollTo({
+        top: joinElement.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+
   useEffect(() => {
     const sr = ScrollReveal({
       distance: '100px',
@@ -28,7 +39,7 @@ const SlidingImageBackground = () => {
     });
 
   }, []);
- 
+
 
   return (
     <div className="homeContainer">
@@ -38,7 +49,7 @@ const SlidingImageBackground = () => {
           <h1> DRIVING WITH TWISTADS </h1>
         </div>
         <div className="homeBtn">
-          <button>Become a driver</button>
+          <button onClick={scrollHandler}>Become a driver</button>
         </div>
         <div className="next">
           <BsArrowDownCircle className="nextIcon" onClick={handleScrollToDesc} />

@@ -115,7 +115,7 @@ const Join = () => {
     
     }, []);
 	return (
-        <div class="joinContainer-dr">
+        <div class="joinContainer-dr" id="joinContainer-dr-id">
             <div className="joinDetails-dr">
                 <div className="joinRegister-dr">
                     <div className="logoContainer-dr">

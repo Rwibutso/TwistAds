@@ -131,7 +131,7 @@ const Join = () => {
     
     }, []);
 	return (
-        <div class="joinContainer-main">
+        <div class="joinContainer-main" id="joinHomeContainer-dr-id">
             <div className="joinTittle-main">
               <h3>JOIN US</h3>
             </div>
@@ -144,8 +144,8 @@ const Join = () => {
                             <div className="joinNext-main">
                                 <BsChevronLeft className="joinLebel-main" id="inactive-lft-main"/>
                                 <div className="joinText-main">
-                                    <p><span>"</span>THIS COMPANY IS GREAT!<span>"</span></p>
-                                    <h4>Serge</h4>
+                                    <p><span>"</span>THIS COMPANY IS SAFE, FAST AND TRUSTWORTHY<span>"</span></p>
+                                    <h4>customer name</h4>
                                 </div>
                                 <BsChevronRight className="joinLebel-main" onClick={handleNext1}/>
                             </div>
@@ -167,7 +167,7 @@ const Join = () => {
                                 <BsChevronLeft className="joinLebel-main" onClick={handlePrevious1}/>
                                 <div className="joinText-main">
                                     <p><span>"</span>THIS COMPANY IS GREAT!<span>"</span></p>
-                                    <h4>Twist</h4>
+                                    <h4>customer name</h4>
                                 </div>
                                 <BsChevronRight className="joinLebel-main" onClick={handleNext1}/>
                             </div>
@@ -189,7 +189,7 @@ const Join = () => {
                                 <BsChevronLeft className="joinLebel-main" onClick={handlePrevious1}/>
                                 <div className="joinText-main">
                                     <p><span>"</span>THIS COMPANY IS GREAT!<span>"</span></p>
-                                    <h4>Pascal</h4>
+                                    <h4>customer name</h4>
                                 </div>
                                 <BsChevronRight className="joinLebel-main" onClick={handleNext1}/>
                             </div>
@@ -211,7 +211,7 @@ const Join = () => {
                                 <BsChevronLeft className="joinLebel-main" onClick={handlePrevious1}/>
                                 <div className="joinText-main">
                                     <p><span>"</span>THIS COMPANY IS GREAT!<span>"</span></p>
-                                    <h4>Kimenyi</h4>
+                                    <h4>customer name</h4>
                                 </div>
                                 <BsChevronRight className="joinLebel-main" id="inactive-lft-main"/>
                             </div>

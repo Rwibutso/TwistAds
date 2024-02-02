@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import React from 'react';
 import Routes from "./routes/index.jsx";
@@ -6,7 +6,8 @@ import Routes from "./routes/index.jsx";
 const App = () => {
 	return (
 		<Router>
-			<Routes></Routes>
+			<Routes>
+			</Routes>
 		</Router>
 	);
 };

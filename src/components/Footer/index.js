@@ -10,8 +10,8 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 
 const Footer = () => {
-   
-	return (
+
+    return (
         <div class="footerContainer">
             <div className="media">
                 <BsFacebook className="mediaIcon" />
@@ -37,10 +37,10 @@ const Footer = () => {
                         <div className="logo-container">
                             <a href="#"><img src={logoImage}></img></a>
                         </div>
-                            <div className="content-logo-h3">
-                                <a href="#" ><h3>Privacy Policy</h3></a>
-                            </div>
-                            <h4>All right reserved by TwistAds team | 2023</h4>
+                        <div className="content-logo-h3">
+                            <a href="#" ><h3>Privacy Policy</h3></a>
+                        </div>
+                        <h4>All right reserved by TwistAds team | 2023</h4>
                     </div>
                     <div className="content-help">
                         <ul>
@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div> 
-	);
+        </div>
+    );
 };
 export default Footer;

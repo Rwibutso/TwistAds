@@ -106,7 +106,7 @@ const Choose = () => {
                                 <BsChevronLeft className="chooseLebel-main" id="choose-inactive-lft-main"/>
                                 <div className="chooseText-main">
                                     <p><span>"</span>THIS COMPANY IS GREAT!<span>"</span></p>
-                                    <h4>Serge</h4>
+                                    <h4>company name</h4>
                                 </div>
                                 <BsChevronRight className="chooseLebel-main" onClick={handleNext}/>
                             </div>
@@ -127,7 +127,7 @@ const Choose = () => {
                                 <BsChevronLeft className="chooseLebel-main" onClick={handlePrevious}/>
                                 <div className="chooseText-main">
                                     <p><span>"</span>THIS COMPANY IS GREAT!<span>"</span></p>
-                                    <h4>Twist</h4>
+                                    <h4>company name</h4>
                                 </div>
                                 <BsChevronRight className="chooseLebel-main" onClick={handleNext}/>
                             </div>
@@ -148,7 +148,7 @@ const Choose = () => {
                                 <BsChevronLeft className="chooseLebel-main" onClick={handlePrevious}/>
                                 <div className="chooseText-main">
                                     <p><span>"</span>THIS COMPANY IS GREAT!<span>"</span></p>
-                                    <h4>Pascal</h4>
+                                    <h4>company name</h4>
                                 </div>
                                 <BsChevronRight className="chooseLebel-main" id="choose-inactive-lft-main"/>
                             </div>

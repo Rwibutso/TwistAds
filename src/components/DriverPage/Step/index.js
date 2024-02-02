@@ -56,7 +56,7 @@ const Step = () => {
     };
 
   return (
-    <div className="stepContainer-dr">
+    <div className="stepContainer-dr" id="stepContainer-dr-id">
       <div className="stepDetails-dr">
         <div className="tittle-dr">
           <h1>HOW IT WORKS</h1>

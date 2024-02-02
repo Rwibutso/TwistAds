@@ -1,25 +1,25 @@
 html{
     scroll-behavior: smooth;
 }
-.EasyContainer-dr {
+.EasyHomeContainer-dr {
     left: 0;
-    top: 10vh;
+    top: 0vh;
     height: 50vh;
     width: 100%;
     position: relative;
-    background-color: black;
+    background: linear-gradient(rgb(1, 3, 7), rgb(240, 236, 236));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.EasyContainer-dr h1{
+.EasyHomeContainer-dr h1{
     color: white;
     font-style: italic;
     font-size: 40px;
     text-align: center;
 }
-.EasyContainer-dr h4{
+.EasyHomeContainer-dr h4{
     margin: .5% 0 2% 0;
     color: white;
     width: auto;
@@ -52,14 +52,14 @@ html{
     transform: scale(.9);
 }
 @media only screen and (max-width: 450px) {
-    .EasyContainer-dr {
-        top: 7vh;
+    .EasyHomeContainer-dr {
+        top: 0vh;
     }
-    .EasyContainer-dr h1{
+    .EasyHomeContainer-dr h1{
         font-size: 30px;
         width: 90%;
     }
-    .EasyContainer-dr h4{
+    .EasyHomeContainer-dr h4{
         margin: .5% 0 5% 0;
         color: white;
         width: auto;

@@ -62,6 +62,7 @@
     "react-loading": "^2.0.3",
     "react-redux": "^8.0.7",
     "react-router-dom": "^6.11.2",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "react-simple-widgets": "^6.7.0",
     "react-toastify": "^9.1.3",
