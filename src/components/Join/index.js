@@ -131,11 +131,11 @@ const Join = () => {
     
     }, []);
 	return (
-        <div class="joinContainer-main" id="joinHomeContainer-dr-id">
+        <div class="joinContainer-main" >
             <div className="joinTittle-main">
               <h3>JOIN US</h3>
             </div>
-            <div className="joinDetails-main">
+            <div className="joinDetails-main" >
                 {step1 ===1 && (
                     <div className="joinFeedBack-main">
                         <div className="fbckLeft-main">
@@ -224,7 +224,7 @@ const Join = () => {
                         </div>
                     </div>
                 )}
-                <div className="joinRegister-main">
+                <div className="joinRegister-main" id="joinRegister-dr-id">
                     <div className="fdbckRight-main">
                        {step2 ===1 && (
                         <div className="empty-main">

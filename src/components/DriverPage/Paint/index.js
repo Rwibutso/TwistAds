@@ -28,7 +28,7 @@ const Paint = () => {
     }, []);
 
     const scrollHandler = () => {
-        const joinElement = document.getElementById('joinContainer-dr-id');
+        const joinElement = document.getElementById('fdbckLeft-dr-id');
         if (joinElement) {
             window.scrollTo({
                 top: joinElement.offsetTop,

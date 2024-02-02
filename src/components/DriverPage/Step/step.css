@@ -46,6 +46,7 @@
     height: 40%;
     width: 50%;
     margin: 10% 0;
+    background-color: bisque;
 }
 .step1-dr h3{
     height: auto;
@@ -211,7 +212,10 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 10vh;
+        top: 7vh;
+    }
+    .tittle-dr h1{
+        font-size: 30px;
     }
     .stepDetails-dr{
         height: 90%;
@@ -221,7 +225,7 @@
         height: 80%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
     .leftDiv-dr .stepSub1-dr, .stepSub2-dr{
         display: none;
@@ -274,6 +278,9 @@
         transition: all 4s;
         background-color: white;
     }
+    .step1-dr h3, .step2-dr h3, .step3-dr h3{
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width: 420px) {
     .stepContainer-dr{
@@ -289,9 +296,7 @@
     .tittle-dr{
         height: 15%;
     }
-    .tittle-dr h1{
-        font-size: 35px;
-    }
+
     .labelIcon1-dr{
         display: block;
         width: 10%;

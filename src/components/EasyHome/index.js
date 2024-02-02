@@ -7,7 +7,7 @@ const EasyHome = () => {
   const elmRef = useRef();
 
   const scrollHandler = () => {
-    const joinElement = document.getElementById('joinHomeContainer-dr-id');
+    const joinElement = document.getElementById("joinRegister-dr-id");
     if (joinElement) {
       window.scrollTo({
         top: joinElement.offsetTop,

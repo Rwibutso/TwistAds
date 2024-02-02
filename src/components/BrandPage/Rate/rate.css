@@ -61,6 +61,10 @@
         width: 90%;
     }
     .rateDetails p{
+        font-size: 20px;
+    }
+    .rateDetails h3{
+        text-align: center;
         font-size: 25px;
     }
     .rateBtn{
@@ -69,6 +73,6 @@
     .rateBtn button{
         height: 40%;
         width: 40%;
-        font-size: 13px;
+        font-size: 15px;
     }
 }

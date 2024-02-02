@@ -73,9 +73,10 @@
 }
 .adverNextContent .h4{
     width: auto;
-    color: rgb(250, 249, 252);
+    color: rgb(195, 181, 223);
     text-align: center;
     font-size: 15px;
+    font-style: italic;
 }
 .adverLebel{
     font-size: 60px;
@@ -112,7 +113,7 @@
         width: 100%;
     }
     .adverTittle h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     .adverDetails{
         display: flex;
@@ -124,7 +125,7 @@
     }
     .fbckLeft img{
         height: 48%;
-        width: 90%;
+        width: 85%;
     }
     .adverNext{
         height: 50%;
@@ -134,7 +135,7 @@
         width: 75%;
     }
     .adverNextContent p{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 5%;
     }
     .adverNextContent h4{
@@ -151,5 +152,8 @@
         height: 5%;
         margin:5% 0 20% 0;
         align-items: flex-start;
+    }
+    .indicator1-adver{
+        height: 3px;
     }
 }
