@@ -107,6 +107,15 @@
     color: white;
     transform: scale(.9);
 }
+@media only screen and (max-width: 991px) {
+    .paintBtn-dr button:hover{
+        background-color: transparent;
+        color: rgb(175, 15, 15);
+        transform: none;
+        pointer-events: painted;
+        border: 2px solid rgb(175, 15, 15);
+    }
+}
 @media only screen and (max-width: 450px) {
     .paintContainer-dr{
         height: 100vh;

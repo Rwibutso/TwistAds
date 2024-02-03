@@ -456,7 +456,7 @@
         height: 8%;
     }
     .joinBtn2-dr button{
-        height: 60%;
+        height: 55%;
         width: 45%;
         margin: 20 0px;
         font-size: 15px;
@@ -533,5 +533,9 @@
         width: 80%;
         text-align: center;
         font-style: italic;
+    }
+    .joinBtn3-dr button{
+        height: 55%;
+        width: 40%;
     }
 }

@@ -24,8 +24,8 @@ const SlidingImageBackground = () => {
           <h1> RIDESHARE ADVERTISING COMPANY </h1>
         </div>
         <div className="homeBtnD">
-          <Link to="/brands" className='Dbtn'><button>Brands</button></Link>
-          <Link to="/drivers" className='Dbtn'><button>Drivers</button></Link>
+          <Link to="/brands" className='Dbtn'><button id='brandbtn'>Brands</button></Link>
+          <Link to="/drivers" className='Dbtn'><button id='driverbtn'>Drivers</button></Link>
         </div>
         <div className="next">
           <BsArrowDownCircle className="nextIcon" onClick={handleScrollToDesc} />

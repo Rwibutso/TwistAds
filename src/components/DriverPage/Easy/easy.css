@@ -51,6 +51,14 @@ html{
     color: rgb(175, 15, 15);
     transform: scale(.9);
 }
+@media only screen and (max-width: 991px) {
+    .butoonLink-dr button:hover{
+        background-color: rgb(175, 15, 15);
+        color: white;
+        transform: none;
+        pointer-events: painted;
+    }
+}
 @media only screen and (max-width: 450px) {
     .EasyContainer-dr {
         top: 7vh;

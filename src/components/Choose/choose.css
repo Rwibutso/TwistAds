@@ -152,12 +152,11 @@
     margin: 30 0px;
     border: 2px solid rgb(175, 15, 15);
     border-radius: 30px;
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(175, 15, 15);
     background-color: transparent;
     font-weight: bold;
     text-decoration: none;
-    background-color: transparent;
     transition: all .4s;
     cursor: pointer;
     outline: none;
@@ -166,6 +165,15 @@
     background-color: rgb(175, 15, 15);
     color: white;
     transform: scale(.9);
+    pointer-events: painted;
+}
+@media only screen and (max-width: 991px) {
+    .chooseBtn button:hover{
+        background-color: transparent;
+        color: rgb(175, 15, 15);
+        transform: none;
+        pointer-events: painted;
+    }
 }
 @media only screen and (max-width: 450px) {
     .chooseContainer-main {

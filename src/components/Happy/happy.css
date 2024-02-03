@@ -54,7 +54,7 @@ html{
     justify-content: center;
     align-items: center;
     margin: 5% 0;
-
+    text-align: center;
 }
 .happyBtn{
     width: 90%;
@@ -63,7 +63,7 @@ html{
     justify-content: center;
 }
 .happyBtn button{
-    width: 30%;
+    width: 40%;
     height: 100%;
     font-size: 16px;
     border-radius: 30px;
@@ -83,6 +83,16 @@ html{
     transform: scale(.9);
     appearance: none;
     font-weight: bold;
+    pointer-events: painted;
+}
+@media only screen and (max-width: 991px) {
+    .happyBtn button:hover{
+        background-color: transparent;
+        color: rgb(175, 15, 15);
+        transform: none;
+        pointer-events: painted;
+        border: 2px solid rgb(175, 15, 15);
+    }
 }
 @media only screen and (max-width: 767px) {
     .happyOuter{

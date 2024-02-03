@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 .joinTittle-main h3{
-    font-size: 60px;
+    font-size: 50px;
     font-style: italic;
     color: white;
 }
@@ -37,7 +37,7 @@
     justify-content: space-between;
 }
 .fbckLeft-main h3{
-    margin: 30px;
+    margin: 25px;
     width: auto;
     color: white;
     text-align: center;
@@ -58,7 +58,7 @@
 }
 .joinText-main p{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     color: white;
     width: auto;
@@ -113,13 +113,13 @@
 }
 .tittle-main h2{  
     width: 100%;
-    font-size: 45px;
+    font-size: 35px;
     font-style: italic;
     color: white;
 }
 .tittle-main h4{  
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
     color: white;
@@ -130,7 +130,7 @@
     justify-content: center;
     align-items: center;
     font-style: italic;
-    font-size: 25px;
+    font-size: 18px;
     color: rgb(60, 94, 169);
 }
 .indicator-main{
@@ -181,8 +181,8 @@ form input:hover{
     height: 20%;
 }
 .joinBtn-main button{
-    height: 60%;
-    width: 30%;
+    height: 55%;
+    width: 40%;
     margin: 30 0px;
     border: 2px solid rgb(175, 15, 15);
     border-radius: 30px;
@@ -267,12 +267,12 @@ form input:hover{
     height: 20%;
 }
 .joinBtn2-main button{
-    height: 60%;
-    width: 30%;
+    height: 55%;
+    width: 35%;
     margin: 30 0px;
     border: 2px solid rgb(175, 15, 15);
     border-radius: 30px;
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(175, 15, 15);
     background-color: transparent;
     transition: all 2s;
@@ -329,12 +329,12 @@ form input:hover{
     margin-bottom: 20px;
 }
 .joinBtn3-main button{
-    height: 60%;
-    width: 30%;
+    height: 55%;
+    width: 35%;
     margin: 30 0px;
     border: 2px solid rgb(175, 15, 15);
     border-radius: 30px;
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(175, 15, 15);
     background-color: transparent;
     transition: all 2s;
@@ -489,9 +489,9 @@ form input:hover{
         padding-left: 20px;
         font-size: 14px;
     }
-    .joinBtn button{
+    .joinBtn-main button{
         height: 60%;
-        width: 30%;
+        width: 35%;
         margin: 20 0px;
         font-size: 15px;
     }
@@ -528,6 +528,8 @@ form input:hover{
     }  
     .joinBtn2-main button{
         font-size: 15px;
+        width: 30%;
+        height: 60%;
     }
 
     /*step 3*/

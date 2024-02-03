@@ -52,6 +52,15 @@
     transform: scaleX(.9);
     border-radius: 30px;
 }
+@media only screen and (max-width: 991px) {
+    .rateBtn button:hover{
+        background-color: transparent;
+        color: rgb(175, 15, 15);
+        transform: none;
+        pointer-events: painted;
+        border: 2px solid rgb(175, 15, 15);
+    }
+}
 @media only screen and (max-width: 450px) {
     .rateContainer{
         height: 45vh;
