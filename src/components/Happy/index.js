@@ -3,6 +3,7 @@ import "../Happy/happy.css";
 import happyImage from "../../assets/json/happyImage.json";
 import Lottie from "lottie-react";
 import ScrollReveal from 'scrollreveal';
+import { Link } from 'react-router-dom';
 
 const Happy = () => {
   useEffect(() => {
@@ -36,7 +37,7 @@ const Happy = () => {
           <h1> DRIVE MONTHLY INCOME </h1>
           <p>Join the thousands of drivers who are earning monthly income with us by placing an advertisement on your car.</p>
           <div className='happyBtn'>
-            <button>Learn more</button>
+            <Link to="/drivers" className='hbtn'><button>Learn more</button></Link>
           </div>
         </div>
       </div>

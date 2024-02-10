@@ -6,6 +6,7 @@ import Brand from "../components/Brands/index.js";
 import Join from "../components/Join/index.js";
 import Choose from "../components/Choose/index.js";
 import EasyHome from "../components/EasyHome/index.js";
+import HomeDisplay from "../components/HomeDisplay/index";
 import Footer from "../components/Footer/index.js";
 
 export default function HomePage() {
@@ -20,6 +21,7 @@ export default function HomePage() {
 			<Join />
 			<Choose />
 			<EasyHome />
+			<HomeDisplay />
 			<Footer />
 		</>
 	);

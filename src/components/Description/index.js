@@ -3,6 +3,7 @@ import "../Description/desc.css"
 import descImage from "../../assets/json/descImage.json";
 import Lottie from "lottie-react";
 import ScrollReveal from 'scrollreveal';
+import { Link } from 'react-router-dom';
 
 
 const Desc = () => {
@@ -35,7 +36,7 @@ const Desc = () => {
             memorable, and technologically advanced, TwistAds is 
             redefining out-of-home. </p>
           <div className='descBtn'>
-             <button>See how</button>
+            <Link to="/brands" className='dbtn'><button>See how</button></Link>
           </div>
         </div>
         <div className='descImage'>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "../Choose/choose.css";
 import Image1 from "../../assets/img/feedback.jpg";
 import { BsChevronLeft, BsChevronRight, BsCheck2All } from 'react-icons/bs';
@@ -162,7 +163,7 @@ const Choose = () => {
                 )}
             </div>
             <div className="chooseBtn">
-                <button>See our work</button>
+                <Link to="/brands" className="chbtn"><button>See our work</button></Link>
             </div>
         </div> 
 	);

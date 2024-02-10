@@ -5,6 +5,7 @@ import Join from "../components/DriverPage/Join/index.js";
 import Anounce from "../components/DriverPage/Anounce/index.js";
 import Footer from "../components/DriverPage/Footer/index.js";
 import Step from "../components/DriverPage/Step/index.js";
+import Display from "../components/HomeDisplay/index.js";
 import Easy from "../components/DriverPage/Easy/index.js";
 import Paint from "../components/DriverPage/Paint/index.js";
 import FAQS from "../components/DriverPage/FAQS/index.js";
@@ -19,6 +20,7 @@ export default function DriverPage() {
             <Join />
 			<Anounce />
 			<Step />
+			<Display />
 			<Paint />
 			<Easy />
 			{/* <FAQS /> */}

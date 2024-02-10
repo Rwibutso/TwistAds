@@ -42,6 +42,14 @@ html{
     text-align: center;
     margin: 20px 0;
 }
+.dbtn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 .descBtn{
     width: 90%;
     height: 6%;
@@ -49,7 +57,7 @@ html{
     justify-content: center;
 }
 .descBtn button{
-    width: 40%;
+    width: 20%;
     height: 100%;
     font-size: 16px;
     border-radius: 30px;
@@ -197,6 +205,10 @@ html{
         margin-bottom: 10%;
         display: flex;
         justify-content: center;
+    }
+    .descBtn button{
+        width: 35%;
+        height: 90%;
     }
     .descImage{
         height: 35%;

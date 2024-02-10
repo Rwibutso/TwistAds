@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.homeDisplaycontainer {
+    height: 150vh;
+    overflow: hidden;
+    left: 0;
+    top: 10vh;
+    position: relative;
+}
+
+.homeAnimation {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px 300px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+    animation: scrollAnimation 40s linear infinite; 
+    top: 10vh;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(calc(-100% * 1.5)); 
+    }
+}
+.galleryItem {
+    height: 100%;
+    width: 100%;
+}
+
+.galleryItem .image {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.galleryItem .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.w1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.w2 {
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+.w3 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.w4 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.w5 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.w6 {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.w7 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.w8 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.w9 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.w10 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.w11 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.w12 {
+    grid-column: span 4;
+    grid-row: span 3;
+}
+
+.w13 {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+.w14 {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+.w15 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.w16 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.w17 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.w18 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.w19 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.w20 {
+    grid-column: span 6;
+    grid-row: span 3;
+}
+@media only screen and (max-width: 450px) {
+    .homeDisplaycontainer {
+        height: 90vh;
+        overflow: hidden;
+        top: 0vh;
+    }
+    
+    .homeAnimation {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

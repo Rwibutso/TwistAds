@@ -79,21 +79,21 @@
 
   .homeBtnD button {
     height: 30%;
-    width: 70%;
+    width: 60%;
     cursor: pointer;
     border-radius: 30px;
     text-decoration: none;
     border: none;
     font-size: 18px;
     color: white;
-    background-color: rgb(175, 15, 15);
     font-weight: bold;
+    background: linear-gradient(90deg,rgb(175, 15, 15), rgb(243, 98, 98));
     transition: all .4s;
   }
 
   .homeBtnD button:hover {
     color: rgb(175, 15, 15);
-    background-color: white;
+    background: white;
     border: 2px solid rgb(175, 15, 15);
     transform: scaleX(.9);
     pointer-events: painted;
