@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 10vh;
 }
 .priorityDetails{
     height: 80%;
@@ -56,6 +57,7 @@
     .priorityContainer{
         height: 50vh;
         overflow: hidden;
+        top: 0vh;
     }
     .priorityDetails{
         height: 80%;

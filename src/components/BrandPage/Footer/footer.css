@@ -3,6 +3,7 @@
     height: 40vh;
     overflow: hidden;
     position: relative;
+    top: 10vh;
 }
 .media{
     height: 20%;
@@ -132,6 +133,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        top: 0vh;
     }
     .media{
         height: 10%;

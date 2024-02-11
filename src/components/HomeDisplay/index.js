@@ -147,6 +147,41 @@ const HomeDispaly = () => {
             </div>
           </div>
         </div>
+        <div className='galleryContainer w1'>
+          <div className='galleryItem'>
+            <div className='image'>
+              <img src={image1} alt='image' />
+            </div>
+          </div>
+        </div>
+        <div className='galleryContainer w2'>
+          <div className='galleryItem'>
+            <div className='image'>
+              <img src={image1} alt='image' />
+            </div>
+          </div>
+        </div>
+        <div className='galleryContainer w3'>
+          <div className='galleryItem'>
+            <div className='image'>
+              <img src={image1} alt='image' />
+            </div>
+          </div>
+        </div>
+        <div className='galleryContainer w4'>
+          <div className='galleryItem'>
+            <div className='image'>
+              <img src={image1} alt='image' />
+            </div>
+          </div>
+        </div>
+        <div className='galleryContainer w5'>
+          <div className='galleryItem'>
+            <div className='image'>
+              <img src={image1} alt='image' />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ html {
 }
 
 .homeDisplaycontainer {
-    height: 150vh;
+    height: 90vh;
     overflow: hidden;
     left: 0;
     top: 10vh;
@@ -18,7 +18,7 @@ html {
     grid-auto-rows: 100px 300px;
     grid-gap: 10px;
     grid-auto-flow: dense;
-    animation: scrollAnimation 40s linear infinite; 
+    animation: scrollAnimation 50s linear infinite; 
     top: 10vh;
 }
 
@@ -28,7 +28,7 @@ html {
     }
 
     100% {
-        transform: translateY(calc(-100% * 1.5)); 
+        transform: translateY(-500%); 
     }
 }
 .galleryItem {
@@ -139,7 +139,7 @@ html {
 }
 .w20 {
     grid-column: span 6;
-    grid-row: span 3;
+    grid-row: span 4;
 }
 @media only screen and (max-width: 450px) {
     .homeDisplaycontainer {
