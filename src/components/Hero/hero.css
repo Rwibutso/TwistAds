@@ -22,10 +22,9 @@
 
   .homeContainer {
     position: relative;
-    top: 10vh;
     left: 0;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     scroll-behavior: smooth;
     transition: scroll-behavior 0.5s ease;
@@ -155,6 +154,9 @@
       pointer-events: painted;
   
     }
+    #nav-right-link.diactive{
+      top: -500px;
+  } 
 
   }
 
@@ -194,7 +196,6 @@
 
     .homeContainer {
       position: relative;
-      top: 10vh;
       left: 0;
       background-size: cover;
       height: 90vh;

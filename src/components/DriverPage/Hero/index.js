@@ -49,7 +49,7 @@ const SlidingImageBackground = () => {
           <h1> DRIVING WITH TWISTADS </h1>
         </div>
         <div className="homeBtn">
-          <button onClick={scrollHandler}>Become a driver</button>
+          <button onClick={handleScrollToDesc}>Become a driver</button>
         </div>
         <div className="next">
           <BsArrowDownCircle className="nextIcon" onClick={handleScrollToDesc} />

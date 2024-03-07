@@ -1,0 +1,218 @@
+.LoginContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets//img/nature.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.loginLabel {
+    text-align: center;
+    font-size: 40px;
+    height: 20%;
+    color: white;
+}
+
+.loginCancelIconLink{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0%;
+    color: rgba(252, 250, 250, 0.726);
+    cursor: pointer;
+}
+.loginCancelIcon{
+    height: 100%;
+    width: 100%;
+}
+
+.login-form {
+    height: 60%;
+}
+.loginInput1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.usernameIcon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 23%;
+    color: rgb(255, 255, 255);
+}
+.login-form input {
+    width: 60%;
+    height: 60px;
+    margin: 15px 0px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+    background: transparent;
+}
+.login-form input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.login-form input:hover {
+    border: 2px solid rgb(14, 215, 61);
+}
+
+.loginforgetDiv {
+    width: 60%;
+    text-align: end;
+}
+.loginforget {
+    text-decoration: none;
+    width: auto;
+    text-align: end;
+    font-weight: bold;
+    color: rgba(22, 18, 13, 0.637);
+}
+.loginforget:hover {
+    color: black;
+}
+
+.logindonthaveacc {
+    height: 10%;
+    width: 60%;
+    text-align: center;
+    color: rgba(20, 19, 19, 0.699);
+}
+
+.loginButton {
+    height: 17%;
+    width: 60%;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 18px;
+    color: rgb(245, 244, 244);
+    transition: all 2s;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.loginButton:hover{
+    background: linear-gradient(90deg,rgb(175, 15, 15), rgb(243, 98, 98));
+    color: white;
+    transform: scale(.9);
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.linkRegister{
+    color: rgba(22, 18, 13, 0.637);
+    text-decoration: none;
+    font-weight: bold;
+}
+.linkRegister:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 708px) {
+    
+    .login-container {
+        width: 80%;
+    }
+    .loginLabel {
+        font-size: 35px;
+    }
+    
+    .loginCancelIcon{
+        height: 100%;
+        width: 100%;
+    }
+
+    .login-form input::placeholder {
+        color: rgb(255, 255, 255);
+    }
+    
+    .login-form input:hover {
+        border: 2px solid rgba(255, 255, 255, .2);
+    }
+
+    .loginButton:hover{
+        background-color: rgba(255, 255, 255, .2);
+
+    }
+};
+
+@media only screen and (max-width: 450px) {
+
+    
+    .login-container {
+        height: 70%;
+        width: 90%;
+    }
+    
+    .loginLabel {
+        font-size: 30px;
+    }
+    
+    .loginCancelIconLink{
+        width: 35px;
+        height: 35px;
+    }
+
+    .usernameIcon{
+        position: absolute;
+        width: 28px;
+        height: 28px;
+    }
+    .login-form input {
+        width: 85%;
+        font-size: 15px;
+    }
+    .login-form input:hover {
+        border: 2px solid rgba(255, 255, 255, .2);
+    }
+    
+    .loginforgetDiv {
+        width: 80%;
+    }
+    
+    .logindonthaveacc {
+        width: 90%;
+        color: rgba(20, 19, 19, 0.699);
+    }
+    
+    .loginButton {
+        height: 16%;
+        width: 85%;
+        font-size: 15px;
+    }
+    .loginButton:hover{
+        background-color: rgba(255, 255, 255, .2);
+    }
+    
+    .error-message {
+        color: red;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+};

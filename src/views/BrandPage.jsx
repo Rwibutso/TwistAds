@@ -6,7 +6,7 @@ import Study from "../components/BrandPage/Study/index.js";
 import Display from "../components/HomeDisplay/index.js";
 import Priority from "../components/BrandPage/Priority/index.js";
 import Rate from "../components/BrandPage/Rate/index.js";
-import Footer from "../components/BrandPage/Footer/index.js";
+import Footer from "../../src/components/Footer/index.js";
 import FAQS from "../components/BrandPage/FAQS/index.js";
 
 export default function BrandPage() {

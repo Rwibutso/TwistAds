@@ -1,7 +1,6 @@
 .joinContainer-dr {
     height: 120vh;
     display: flex;
-    top: 10vh;
     position:relative;
     justify-content: center;
     align-items: center;
@@ -204,7 +203,6 @@
 .joinBtn2-dr button:hover{
     background-color: rgb(175, 15, 15);
     color: white;
-    transform: scale(.9);
 }
 
 /*step 2*/
@@ -277,7 +275,6 @@
     font-size: 18px;
     color: rgb(175, 15, 15);
     background-color: transparent;
-    transition: all 2s;
     font-weight: bold;
     text-decoration: none;
     background-color: transparent;

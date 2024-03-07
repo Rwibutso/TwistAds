@@ -5,9 +5,11 @@ html {
 .homeDisplaycontainer {
     height: 90vh;
     overflow: hidden;
-    left: 0;
-    top: 10vh;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
 }
 
 .homeAnimation {
@@ -19,7 +21,6 @@ html {
     grid-gap: 10px;
     grid-auto-flow: dense;
     animation: scrollAnimation 50s linear infinite; 
-    top: 10vh;
 }
 
 @keyframes scrollAnimation {

@@ -12,7 +12,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 const Footer = () => {
 
     return (
-        <div class="footerContainer">
+        <div class="footerHomeContainer" >
             <div className="media">
                 <BsFacebook className="mediaIcon" />
                 <BsLinkedin className="mediaIcon" />

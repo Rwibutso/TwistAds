@@ -2,9 +2,8 @@ html{
     scroll-behavior: smooth;
 }
 .descContainer {
-    top: 10vh;
     left: 0;
-    height: 89vh;
+    height: 90vh;
     width: 100%;
     position: relative;
 }
@@ -162,7 +161,8 @@ html{
 }
 @media only screen and (max-width: 450px) {
     .descContainer {
-        height: 90vh;
+        height: 100vh;
+        top: 10vh;
     }
     .descOuter{
         height: 100%;

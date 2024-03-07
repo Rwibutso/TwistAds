@@ -20,18 +20,19 @@ class HeaderMain extends Component {
 
     render() {
         return (
-            <div className="headerContainer">
-                <div className="nav-logo">
-                    <Link to="/" id="logoLink"><h3>Twist<span>Ads</span></h3></Link>
+            <div className="headerHomeContainer">
+                <div className="navHomeLogo">
+                    <Link to="/" id="logoHomeLink"><h3>Twist<span>Ads</span></h3></Link>
                 </div>
-                <div className="nav-right">
-                    <div id="nav-right-link" className={this.state.clicked ? "#nav-right-link active" : "#nav-right-link"}>
-                        <div className="nav-right-link-desc">
-                            <Link to="/brands" id="link1"><h3 className="active">Brands & Agencies</h3></Link>
+                <div className="navHomeRight">
+                    <div id="navHomeRight-link" className={this.state.clicked ? "#nav-right-link active" : "#nav-right-link"}>
+                        <div className="navHomeRight-link-desc">
+                            <Link to="/brands" id="HomeLink1"><h3 className="CurrentPage">Brands & Agencies</h3></Link>
                             <span> | </span>
-                            <Link to="/drivers" id="link2"><h3>Drivers</h3></Link>
+                            <Link to="/drivers" id="HomeLink2"><h3>Drivers</h3></Link>
+                            <Link to="/login" id="HomeLink3"><h3>Login</h3></Link>
                         </div>
-                        <div className="media1">
+                        <div className="HomeMedia1">
                             <BsFacebook className="mediaIcon1" />
                             <BsLinkedin className="mediaIcon1" />
                             <BsTwitter className="mediaIcon1" />
@@ -40,8 +41,8 @@ class HeaderMain extends Component {
                             <BsWhatsapp className="mediaIcon1" />
                         </div>
                     </div>
-                    <div id="mobile">
-                        <i id="bar" onClick={this.handleClick}>
+                    <div id="HomeMobile">
+                        <i id="HomeBar" onClick={this.handleClick}>
                             {this.state.clicked ? <FaTimes /> : <FaBars />}
                         </i>
                     </div>

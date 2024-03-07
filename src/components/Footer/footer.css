@@ -1,7 +1,8 @@
-.footerContainer {
+.footerHomeContainer {
     background-color: aliceblue;
     height: 40vh;
     overflow: hidden;
+    position: relative;
 }
 .media{
     height: 20%;
@@ -125,7 +126,7 @@
     width: 60%;
 }
 @media only screen and (max-width: 450px) {
-    .footerContainer {
+    .footerHomeContainer {
         height: 90vh;
         display: flex;
         flex-direction: column;
