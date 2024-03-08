@@ -7,19 +7,21 @@
     background: url("../../assets//img/nature.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .login-container {
     height: 60%;
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 20px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     position: relative;
+    margin-top: 5%;
 }
 
 .loginLabel {
@@ -43,7 +45,11 @@
 }
 
 .login-form {
-    height: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .loginInput1{
     display: flex;
@@ -99,9 +105,8 @@
 }
 
 .loginButton {
-    height: 17%;
+    height: 15%;
     width: 60%;
-    margin-top: 30px;
     background-color: rgba(255, 255, 255, .2);
     border-radius: 30px;
     font-size: 18px;
@@ -113,6 +118,7 @@
     cursor: pointer;
     outline: none;
     border: none;
+    margin-top: 30px;
 }
 .loginButton:hover{
     background: linear-gradient(90deg,rgb(175, 15, 15), rgb(243, 98, 98));
@@ -124,6 +130,7 @@
     color: red;
     margin-bottom: 10px;
     text-align: center;
+    width: 100%;
 }
 .linkRegister{
     color: rgba(22, 18, 13, 0.637);
@@ -133,14 +140,14 @@
 .linkRegister:hover {
     color: black;
 }
-
-@media only screen and (max-width: 708px) {
+@media only screen and (max-width: 991px) {
     
     .login-container {
-        width: 80%;
+        width: 70%;
+        margin-top: 10%;
     }
     .loginLabel {
-        font-size: 35px;
+        font-size: 32px;
     }
     
     .loginCancelIcon{
@@ -155,23 +162,36 @@
     .login-form input:hover {
         border: 2px solid rgba(255, 255, 255, .2);
     }
-
-    .loginButton:hover{
-        background-color: rgba(255, 255, 255, .2);
-
+    .loginButton{
+        background: linear-gradient(90deg,rgb(175, 15, 15), rgb(243, 98, 98));
     }
+    .loginButton:hover{
+        background: linear-gradient(90deg,rgb(175, 15, 15), rgb(243, 98, 98));
+        transform: none;
+    }
+
+};
+
+@media only screen and (max-width: 708px) {
+    
+    .login-container {
+        width: 75%;
+    }
+    .loginLabel {
+        font-size: 30px;
+    }
+    
 };
 
 @media only screen and (max-width: 450px) {
 
     
     .login-container {
-        height: 70%;
         width: 90%;
     }
     
     .loginLabel {
-        font-size: 30px;
+        font-size: 28px;
     }
     
     .loginCancelIconLink{
@@ -180,12 +200,13 @@
     }
 
     .usernameIcon{
-        position: absolute;
-        width: 28px;
-        height: 28px;
+        right: 12%;
+        width: 26px;
+        height: 26px;
     }
     .login-form input {
         width: 85%;
+        height: 55px;
         font-size: 15px;
     }
     .login-form input:hover {
@@ -202,17 +223,8 @@
     }
     
     .loginButton {
-        height: 16%;
+        height: 14%;
         width: 85%;
         font-size: 15px;
-    }
-    .loginButton:hover{
-        background-color: rgba(255, 255, 255, .2);
-    }
-    
-    .error-message {
-        color: red;
-        margin-bottom: 10px;
-        text-align: center;
     }
 };

@@ -39,9 +39,9 @@ const LoginForm = () => {
         <div className="LoginContainer">
             <div className="login-container">
                 <h2 className='loginLabel'>Login</h2>
-                 
+
                 <Link to="/" className='loginCancelIconLink'><MdOutlineCancel className='loginCancelIcon' /></Link>
-            
+
                 <form className="login-form" onSubmit={handleLogin}>
                     <div className='loginInput1'>
                         <input
